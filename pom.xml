@@ -4,8 +4,12 @@
 
     <groupId>org.openshift</groupId>
     <packaging>war</packaging>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <name>InsultApp</name>
+<scm>
+    <developerConnection>scm:git:https://github.com/hsaid4327/book-insultapp.git</developerConnection>
+    
+  </scm>
   
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,6 +56,11 @@
               		  <warName>ROOT</warName>
                 </configuration>
             </plugin>
+       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.0.0-M4</version>
+      </plugin>		
         </plugins>
       </build>
     </profile>
