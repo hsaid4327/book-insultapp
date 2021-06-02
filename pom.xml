@@ -4,12 +4,12 @@
 
     <groupId>org.openshift</groupId>
     <packaging>war</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <name>InsultApp</name>
 <scm>
     <developerConnection>scm:git:https://github.com/hsaid4327/book-insultapp.git</developerConnection>
     
-    <tag>HEAD</tag>
+    <tag>InsultApp-1.2</tag>
   </scm>
     <distributionManagement>
         <repository>
